@@ -5,3 +5,4 @@ export { default as ProductTitle } from './title';
 export { default as ProductPrice } from './price';
 export { default as ProductSummary } from './summary';
 export { default as ProductSaleBadge } from './sale-badge';
+export { default as ProductVariationAttributePicker } from './variation-attribute-picker';

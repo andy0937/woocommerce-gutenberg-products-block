@@ -10,6 +10,7 @@ import {
 	ProductRating,
 	ProductSummary,
 	ProductSaleBadge,
+	ProductVariationAttributePicker,
 } from '@woocommerce/atomic-components/product';
 
 /**
@@ -25,6 +26,7 @@ export const getBlockMap = ( blockName ) => ( {
 	'woocommerce/product-button': ProductButton,
 	'woocommerce/product-summary': ProductSummary,
 	'woocommerce/product-sale-badge': ProductSaleBadge,
+	'woocommerce/product-add-to-cart': ProductVariationAttributePicker,
 	...getRegisteredInnerBlocks( blockName ),
 } );
 
