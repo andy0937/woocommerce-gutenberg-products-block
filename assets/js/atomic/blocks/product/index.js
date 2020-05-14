@@ -5,3 +5,4 @@ export { default as ProductRating } from './rating';
 export { default as ProductButton } from './button';
 export { default as ProductSummary } from './summary';
 export { default as ProductSaleBadge } from './sale-badge';
+export { default as ProductAddToCart } from './add-to-cart';
