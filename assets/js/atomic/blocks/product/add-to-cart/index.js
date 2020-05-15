@@ -3,7 +3,7 @@
  */
 import { __ } from '@wordpress/i18n';
 import { registerBlockType } from '@wordpress/blocks';
-import { ProductVariationAttributePicker } from '@woocommerce/atomic-components/product';
+import { VariationAttributes } from '@woocommerce/atomic-components/product';
 import { Icon, cart } from '@woocommerce/icons';
 
 /**
@@ -33,7 +33,7 @@ const blockConfig = {
 	edit( props ) {
 		const { product } = props.attributes;
 
-		return <ProductVariationAttributePicker product={ product } />;
+		return <VariationAttributes product={ product } />;
 	},
 };
 
